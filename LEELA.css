@@ -1,0 +1,400 @@
+body {
+    font-family:"Segoe UI",sans-serif;
+    margin: 0;
+    font-size: 6pt;
+}
+
+.elit {
+    background-color: rgb(238 78 78);
+    color: white;
+    padding: 10px;   
+}
+
+.overvew {
+    text-align: center;
+}
+
+.clean{
+    display: flex;
+    gap: 7px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-leela {
+    width: 150px;
+    border: 2px solid rgb(243, 238, 238);
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.simple{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 6pt;
+}
+
+.over-container {
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.team-description {
+    text-align: center;
+    color: white;
+}
+
+.asset{
+    width: 2000px;
+    height:400px;
+}
+
+.asset-src {
+    width: 2000px;
+    height:220px;
+}
+
+.asset-container {
+    width: 100px;
+    height: 150px;
+}
+
+.our-container {
+    display: flex;
+    justify-content: center;
+}
+
+.our{
+    width: 100px;
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.portofolio{
+    gap: 7px;
+    text-align: center;
+    justify-content: center;
+}
+
+.portofolio-team{
+    display: flex;
+    justify-content: center;
+}
+
+.portofoio-container{
+    width: 100px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-team{
+    justify-content: center;
+    text-align: center;
+   margin: 4px;
+}
+
+.windo {
+    text-align: center;
+} 
+
+.windo-container{
+    background-color: rgb(220 53 69);
+    padding: 10px;
+}
+
+.one-more{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.more{
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 6px;
+    text-align: center; 
+    margin-top: 10px;
+    padding: 0 4px ;
+    /*
+    padding-top: 0;
+    padding-right:4px;
+    padding-bottom: 0;
+    padding-left: 4px;
+    */
+}
+
+.more h3 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24pt;
+}
+
+.more-more h3{
+    margin: 0;
+    font-weight: 300;
+    font-size: 20pt;
+}
+
+section.testimonials {
+    background-color: rgb(80 47 78);
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    max-width: 80ch;
+    margin-left: auto;
+    margin-right:auto ;
+
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+.more-clients {
+    text-align: center;
+    background-color: rgb(116 112 128);
+    color: white;
+    padding: 10px;
+}
+
+.tweeting{
+    color: #774b5f;
+}
+
+.email {
+    background-color: rgb(52 58 64);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.more-more {
+    color: rgb(58 73 87);
+    border: 2px solid rgb(58 73 87);
+    padding: 0 4px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20pt;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.more-more h3{
+    font-size: 10pt;
+    font-weight: 400;
+   
+}
+
+section.carusel-container > div:first-child {
+    height: min-content;
+}
+
+section.carusel-container > div:first-child img{
+    max-width: 100%;
+    display: block;
+}
+
+.portofoio-container h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.our h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15pt; 
+}
+
+.over-container h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 15pt;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 0 10px;
+    border-radius: 2px;
+    margin-top: 16px;
+}
+
+.over-container {
+ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-leela h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.home-container ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 6pt;
+}
+
+.home-container ul li{
+    text-transform: uppercase;
+    list-style: none;
+    
+}
+
+.buton {
+    margin: 1px 2px 0.5px;
+    border: none;
+}
+
+.button-white{
+    background-color: #ede9e9;
+}
+
+.button-grey {
+    background-color: #c0bfc8;
+}
+
+
+.section-title{
+    border: 2px solid white;
+    padding: 0 4px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 10pt;
+    border-radius: 3px;
+}
+
+.section-title.dark {
+    color: black;
+    border-color: black;
+}
+
+.our-team {
+    background-image: url("./Assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 32px;
+    margin-top: 16px;
+}
+
+.our-team .team-photos img {
+    max-height: 150px ;
+}
+
+.munder {
+    font-size: 7pt;  
+    color: white;
+    
+}
+
+.form-input label {
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 8pt;
+    margin: 5px;
+    width: 200px;
+    
+}
+
+.form-input input {
+    width: 200px ;
+}
+
+.form-input textarea{
+    width: 200px ;
+}
+
+.form-label {
+    display: flex;
+    justify-content: center;
+}
+
+.button-submit button {
+    color: white; 
+    background-color: #52687b;
+    font-size: 6pt;
+    border: none;
+    height: 20px;
+    
+}
+
+.button-submit {
+    width: 200px;
+    text-align: right;
+
+}
+
+.button-sent{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    width: 640px;
+    text-align: right;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 35px 0;
+    color: rgb(6, 40, 70);
+}
+
+.carusel-position{
+    position: relative;
+}
+
+
+.arrow-right {
+    
+   
+    padding: 32px;
+    margin-top: 16px;
+    text-align: center;
+    color: rgb(209, 19, 19);
+    
+}
+
+
+
+
+
+
+
+
+
+
